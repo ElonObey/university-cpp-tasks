@@ -12,7 +12,7 @@
 
 using namespace std;
 
-bool inWeek(int day) {
+bool isDayOfWeek(int day) {
     if (0 < day && day < 8) {
         return true;
     } else {
@@ -53,7 +53,7 @@ int main() {
     cout << "Введите количество минут разговора: ";
     cin >> minutes;
 
-    if (inWeek(day)) {
+    if (isDayOfWeek(day)) {
         cout << "Стоимость разговора: "
              << calculatePrice(minutes, isDayOff(day), kPricePerMinute, kDiscount)
              << endl;
