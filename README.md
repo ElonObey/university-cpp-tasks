@@ -1,6 +1,6 @@
 # University CPP tasks
 
-Student tasks in *C++* programming.
+Student tasks in **C++** programming.
 
 ## Status
 
